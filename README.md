@@ -1,7 +1,7 @@
-# ModAPI
-Modding API source
+# QuantumAPI
+Quantum API source
 
-The purpose of the Modding API is to create a platform for which mods can truly interact with eachother. 
+The purpose of the Quantum API is to create a platform for which mods can truly interact with eachother. 
 Mods will be fully compatible with other mods, including mods not made for this API, provided that external
 mod has an interface to this API.
 
