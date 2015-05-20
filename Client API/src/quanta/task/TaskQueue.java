@@ -1,9 +1,9 @@
 /**
  * 
  */
-package mc.task;
+package quanta.task;
 
-import mc.util.API;
+import quanta.util.API;
 import net.minecraft.client.Minecraft;
 
 import com.google.common.util.concurrent.ListenableFuture;

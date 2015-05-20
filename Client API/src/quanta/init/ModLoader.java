@@ -1,9 +1,9 @@
 /**
  * 
  */
-package mc.init;
+package quanta.init;
 
-import mc.Mod;
+import quanta.Mod;
 
 /**
  * @author Link

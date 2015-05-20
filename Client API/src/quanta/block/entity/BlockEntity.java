@@ -1,11 +1,11 @@
 /**
  * 
  */
-package mc.block.entity;
+package quanta.block.entity;
 
-import mc.APIObject;
-import mc.block.Block;
-import mc.world.World;
+import quanta.APIObject;
+import quanta.block.Block;
+import quanta.world.World;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.BlockPos;
 

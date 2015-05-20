@@ -1,11 +1,11 @@
 /**
  * 
  */
-package mc.event;
+package quanta.event;
 
-import java.awt.Event;
 
-import mc.block.Block;
+import quanta.block.Block;
+import quanta.entity.Entity;
 
 /**
  * <p>
@@ -24,12 +24,11 @@ public final class BlockEvent extends Event {
 	private static final long serialVersionUID = 6307231635329578417L;
 
 	/** The location of the passed in block */
-	private transient int x, y, z;
+	protected final transient int x, y, z;
 	/** The block passed into this BlockEvent */
-	private transient Block block;
-	/** The event id and argument to pass */
-	private transient int evtID, arg;
-
+	protected final transient Block block;
+	/** The entity passed into this BlockEvent */
+	protected final transient Entity entity;
 	/**
 	 * Creates a new BlockEvent with an world location, block, id, and argument.
 	 * 
@@ -41,14 +40,14 @@ public final class BlockEvent extends Event {
 	 *            the z location in the world.
 	 * @param block
 	 *            the block that is in the world.
-	 * @param evtId
-	 *            the event id of this BlockEvent.
-	 * @param arg
-	 *            the argument, if applicable, that is passed into this
-	 *            BlockEvent.
 	 */
-	public BlockEvent(int x, int y, int z, Block block, int evtId, int arg) {
-		super(block, evtId, arg);
+	public BlockEvent(int x, int y, int z, Block block, Entity entity, String eventType) {
+		super(eventType);
+		this.x = x;
+		this.y = y;
+		this.z = z;
+		this.block = block;
+		this.entity = entity;
 	}
 
 	/**
@@ -86,22 +85,9 @@ public final class BlockEvent extends Event {
 	public final Block getBlock() {
 		return block;
 	}
-
-	/**
-	 * Gets the event ID of this BlockEvent object.
-	 * 
-	 * @return the event ID of this BlockEvent.
-	 */
-	public final int getID() {
-		return evtID;
+	
+	public final Entity getEntity() {
+		
 	}
 
-	/**
-	 * Gets the parameter passed into this BlockEvent object.
-	 * 
-	 * @return the parameter passed into this BlockEvent object.
-	 */
-	public final int getParam() {
-		return arg;
-	}
 }

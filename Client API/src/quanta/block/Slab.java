@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.block;
+package quanta.block;
 
 /**
  * @author Link

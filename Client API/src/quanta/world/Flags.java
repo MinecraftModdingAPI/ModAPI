@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.world;
+package quanta.world;
 
 /**
  * @author Link

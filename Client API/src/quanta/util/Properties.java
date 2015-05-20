@@ -1,12 +1,12 @@
 /**
  * 
  */
-package mc.util;
+package quanta.util;
 
 import java.util.Collection;
 import java.util.HashMap;
 
-import mc.APIObject;
+import quanta.APIObject;
 import net.minecraft.block.material.MapColor;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.properties.IProperty;
@@ -94,6 +94,14 @@ public class Properties extends APIObject {
 	public synchronized Property<?>[] getProperties() {
 		return nodes.values().toArray(new Property<?>[nodes.size()]);
 	}
+	
+	private static class MBlockProperties extends Material {
+
+		protected MBlockProperties(Properties props) {
+			super((MapColor) props.getProperty("block.mapColor").getValue());
+		}
+
+	}
 
 	/*
 	 * (non-Javadoc)
@@ -102,17 +110,7 @@ public class Properties extends APIObject {
 	 */
 	@Override
 	public Material format() {
-
-		class MBlockProperties extends Material {
-
-			protected MBlockProperties(Properties props) {
-				super((MapColor) props.getProperty("block.mapColor").getValue());
-			}
-
-		}
-		
-		MBlockProperties mbp = new MBlockProperties(this);
-		return mbp;
+		return new MBlockProperties(this);
 	}
 
 	@SuppressWarnings("unchecked")
