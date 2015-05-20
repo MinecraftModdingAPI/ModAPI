@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.tile;
+package quanta.tile;
 
 import static net.minecraft.block.material.MapColor.adobeColor;
 import static net.minecraft.block.material.MapColor.airColor;
@@ -43,7 +43,7 @@ import static net.minecraft.block.material.MapColor.yellowColor;
 import java.awt.Color;
 import java.util.HashMap;
 
-import mc.block.Block;
+import quanta.block.Block;
 import net.minecraft.block.material.MapColor;
 
 /**

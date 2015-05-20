@@ -1,18 +1,18 @@
 /**
  * 
  */
-package mc.block;
+package quanta.block;
 
 import java.awt.Color;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.Map;
 
-import mc.APIObject;
-import mc.block.entity.BlockEntity;
-import mc.tile.MapPallette;
-import mc.util.Properties;
-import mc.util.Property;
+import quanta.APIObject;
+import quanta.block.entity.BlockEntity;
+import quanta.tile.MapPallette;
+import quanta.util.Properties;
+import quanta.util.Property;
 import net.minecraft.util.ResourceLocation;
 
 /**
@@ -101,7 +101,7 @@ public abstract class Block extends APIObject {
 	 * @param dz
 	 *            the delta z offset this block renders from a World location.
 	 * 
-	 * @see mc.util.Properties {@code mc.util.Properties }for information
+	 * @see quanta.util.Properties {@code mc.util.Properties }for information
 	 *      regarding {@code props}.
 	 */
 	protected Block(Properties props, Color color, boolean opaque, String name, int opacity, int lightEmission,

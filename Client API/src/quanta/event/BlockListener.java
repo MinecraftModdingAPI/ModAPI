@@ -1,13 +1,13 @@
 /**
  * 
  */
-package mc.event;
+package quanta.event;
 
 /**
  * @author Link
  *
  */
-public interface BlockListener {
+public interface BlockListener extends Listener {
 
 	/**
 	 * Called whenever a BlockEvent occurs.

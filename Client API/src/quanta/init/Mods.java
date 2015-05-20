@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.init;
+package quanta.init;
 
 /**
  * @author Link

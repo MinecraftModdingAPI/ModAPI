@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc;
+package quanta;
 
 /**
  * @author Link

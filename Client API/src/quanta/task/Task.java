@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.task;
+package quanta.task;
 
 /**
  * @author Link

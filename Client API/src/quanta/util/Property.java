@@ -1,17 +1,17 @@
 /**
  * 
  */
-package mc.util;
+package quanta.util;
 
 import java.util.Collection;
 
+import quanta.APIObject;
 import net.minecraft.block.properties.IProperty;
 import net.minecraft.block.properties.PropertyBool;
 import net.minecraft.block.properties.PropertyDirection;
 import net.minecraft.block.properties.PropertyEnum;
 import net.minecraft.block.properties.PropertyHelper;
 import net.minecraft.block.properties.PropertyInteger;
-import mc.APIObject;
 
 /**
  * @author Link

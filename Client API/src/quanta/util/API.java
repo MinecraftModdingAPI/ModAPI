@@ -1,15 +1,16 @@
 /**
  * 
  */
-package mc.util;
+package quanta.util;
 
 import java.util.HashMap;
 
-import mc.world.World;
 import net.minecraft.client.Minecraft;
-import net.minecraft.server.integrated.IntegratedServer;
+import net.minecraft.server.MinecraftServer;
 
 import org.apache.logging.log4j.Logger;
+
+import quanta.world.World;
 
 /**
  * @author Link
@@ -60,7 +61,7 @@ public final class API {
 	 * @return the native installation directory of Minecraft.
 	 */
 	public static String getMinecraftDir() {
-		return IntegratedServer.getServer().getDataDirectory().getAbsolutePath();
+		return MinecraftServer.getServer().getDataDirectory().getAbsolutePath();
 	}
 
 	/**
@@ -121,5 +122,9 @@ public final class API {
 	public static Logger getLogger() {
 
 		return org.apache.logging.log4j.LogManager.getLogger();
+	}
+
+	public static int getModCount() {
+		return 0;
 	}
 }

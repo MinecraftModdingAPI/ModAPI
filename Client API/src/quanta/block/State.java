@@ -1,11 +1,11 @@
 /**
  * 
  */
-package mc.block;
+package quanta.block;
 
+import quanta.APIObject;
+import quanta.util.Properties;
 import net.minecraft.block.state.BlockState;
-import mc.APIObject;
-import mc.util.Properties;
 
 /**
  * @author Link

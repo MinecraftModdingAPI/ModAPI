@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.util;
+package quanta.util;
 
 import java.io.File;
 

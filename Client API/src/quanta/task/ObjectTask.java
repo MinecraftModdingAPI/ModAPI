@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.task;
+package quanta.task;
 
 import java.util.concurrent.Callable;
 
@@ -13,6 +13,7 @@ public class ObjectTask<T> implements Callable<T>{
 
 	@SuppressWarnings("unused")
 	private ObjectTask() {}
+	
 	public ObjectTask(Runnable runnable) {
 		synchronized(this) {
 			runnable.run();

@@ -1,17 +1,17 @@
 /**
  * 
  */
-package mc.world;
+package quanta.world;
 
 import java.util.Locale;
 
-import mc.block.Block;
-import mc.block.State;
-import mc.entity.Entity;
-import mc.task.Task;
-import mc.task.TaskQueue;
-import mc.util.API;
-import mc.util.Settings;
+import quanta.block.Block;
+import quanta.block.State;
+import quanta.entity.Entity;
+import quanta.task.Task;
+import quanta.task.TaskQueue;
+import quanta.util.API;
+import quanta.util.Settings;
 import net.minecraft.block.state.BlockState;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.client.Minecraft;

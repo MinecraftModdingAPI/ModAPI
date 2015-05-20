@@ -1,10 +1,10 @@
 /**
  * 
  */
-package mc.entity;
+package quanta.entity;
 
-import mc.APIObject;
-import mc.world.World;
+import quanta.APIObject;
+import quanta.world.World;
 import net.minecraft.nbt.NBTTagCompound;
 
 /**

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package mc.util;
+package quanta.util;
 
 import net.minecraft.client.settings.GameSettings;
 
@@ -25,11 +25,11 @@ public final class Settings {
 
 	/**
 	 * Returns the in-game GUI scale. Scale types are small (0), normal (1), and
-	 * large (2).
+	 * large (2). Subject to change.
 	 * 
 	 * @obfuscated true
 	 * @return the in-game GUI scale
-	 * @see mc.util.Scale
+	 * @see quanta.util.Scale
 	 */
 	public static synchronized int getGUIScale() {
 		return MCSettings.getSettings().guiScale;

@@ -5,7 +5,7 @@ package test;
 
 import java.util.Arrays;
 
-import mc.util.API;
+import quanta.util.API;
 
 /**
  * @author Link
