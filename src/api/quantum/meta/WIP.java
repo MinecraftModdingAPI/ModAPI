@@ -17,4 +17,5 @@ import java.lang.annotation.Target;
 @Target({ElementType.TYPE, ElementType.CONSTRUCTOR, ElementType.METHOD, ElementType.PACKAGE})
 public @interface WIP {
     String description() default "Work In Progress";
+    String[] unfinished() default {"Such work, much progress..."};
 }
