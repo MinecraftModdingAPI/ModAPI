@@ -13,5 +13,5 @@ package api.quantum.meta;
  */
 @WorkInProgress
 public @interface WIP {
-    /* No need to do stuff here, everything is inherited */
+    
 }
