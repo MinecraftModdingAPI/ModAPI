@@ -5,16 +5,18 @@
  */
 package api.quantum.init;
 
+import api.quantum.meta.WIP;
 import java.lang.instrument.Instrumentation;
 
 /**
  *
  * @author link
  */
+@WIP(description="Not working yet.", unfinished={"mod loading"})
 class ModLoader {
-
+    
     public static void premain(String args, Instrumentation inst) {
-        System.out.println("Testing javaagent 'modloader'");
+        System.out.println("Quantum API loaded as Java Agent successfully initialized");
         //inst.addTransformer(new UniversalAgent(root, clazz));
     }
 

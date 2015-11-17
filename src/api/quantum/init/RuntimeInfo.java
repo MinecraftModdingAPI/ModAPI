@@ -5,6 +5,7 @@
  */
 package api.quantum.init;
 
+import api.quantum.meta.WIP;
 import java.util.HashMap;
 import java.util.LinkedList;
 
@@ -12,10 +13,12 @@ import java.util.LinkedList;
  *
  * @author link
  */
+@WIP(description="A lot of missing runtime information", unfinished={"RuntimeInfo.info"})
 public class RuntimeInfo {
 
     private static final RuntimeInfo info = ModLoader.createRuntimeInfo();
 
+    @WIP
     RuntimeInfo(String apiVersion, String minecraftVersion, Runnable[] mainHooks, HashMap<String, LinkedList<Runnable>> methodHooks) {
         synchronized (info) {
             this.apiVersion = apiVersion;
