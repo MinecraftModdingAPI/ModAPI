@@ -5,13 +5,16 @@
  */
 package api.quantum.meta;
 
+import java.lang.annotation.ElementType;
+import java.lang.annotation.Target;
+
 /**
- * Shorthand for the Annotation {@code @WorkInProgress}.
  * 
+ * Defines an element as Work In Progress.
  * 
  * @author link
  */
-@WorkInProgress
+@Target({ElementType.TYPE, ElementType.CONSTRUCTOR, ElementType.METHOD, ElementType.PACKAGE})
 public @interface WIP {
-    
+    String description() default "Work In Progress";
 }
