@@ -14,159 +14,159 @@ import net.minecraft.block.material.Material;
  *
  * @author link
  */
-public final class WorldType {
+public final class BlockDataTag {
 
     /**
-     * Custom WorldType (for your own blocks)
+     * Custom BlockDataTag (for your own blocks)
      */
     public static final int CUSTOM = -1;
     /**
-     * Air WorldType
+     * Air BlockDataTag
      */
     public static final int AIR = 0;
     /**
-     * Grass WorldType
+     * Grass BlockDataTag
      */
     public static final int GRASS = 1;
     /**
-     * Dirt WorldType
+     * Dirt BlockDataTag
      */
     public static final int DIRT = 2;
     /**
-     * Wood WorldType
+     * Wood BlockDataTag
      */
     public static final int WOOD = 3;
     /**
-     * Stone WorldType
+     * Stone BlockDataTag
      */
     public static final int STONE = 4;
     /**
-     * Iron WorldType
+     * Iron BlockDataTag
      */
     public static final int IRON = 5;
     /**
-     * Anvil WorldType
+     * Anvil BlockDataTag
      */
     public static final int ANVIL = 6;
     /**
-     * Water WorldType
+     * Water BlockDataTag
      */
     public static final int WATER = 7;
     /**
-     * Lava WorldType
+     * Lava BlockDataTag
      */
     public static final int LAVA = 8;
     /**
-     * Leaves WorldType
+     * Leaves BlockDataTag
      */
     public static final int LEAVES = 9;
     /**
-     * Plant WorldType
+     * Plant BlockDataTag
      */
     public static final int PLANT = 10;
     /**
-     * Vine WorldType
+     * Vine BlockDataTag
      */
     public static final int VINE = 11;
     /**
-     * Sponge WorldType
+     * Sponge BlockDataTag
      */
     public static final int SPONGE = 12;
     /**
-     * Cloth WorldType
+     * Cloth BlockDataTag
      */
     public static final int CLOTH = 13;
     /**
-     * Fire WorldType
+     * Fire BlockDataTag
      */
     public static final int FIRE = 14;
     /**
-     * Sand WorldType
+     * Sand BlockDataTag
      */
     public static final int SAND = 15;
     /**
-     * Redstone WorldType
+     * Redstone BlockDataTag
      */
     public static final int REDSTONE = 16;
     /**
-     * Carpet WorldType
+     * Carpet BlockDataTag
      */
     public static final int CARPET = 17;
     /**
-     * Glass WorldType
+     * Glass BlockDataTag
      */
     public static final int GLASS = 18;
     /**
-     * Rendstone light WorldType
+     * Rendstone light BlockDataTag
      */
     public static final int REDSTONE_LIGHT = 19;
     /**
-     * TNT WorldType
+     * TNT BlockDataTag
      */
     public static final int TNT = 20;
     /**
-     * Coral WorldType
+     * Coral BlockDataTag
      */
     public static final int CORAL = 21;
     /**
-     * Ice WorldType
+     * Ice BlockDataTag
      */
     public static final int ICE = 22;
     /**
-     * Packed Ice WorldType
+     * Packed Ice BlockDataTag
      */
     public static final int PACKED_ICE = 23;
     /**
-     * Snow (with different levels) WorldType
+     * Snow (with different levels) BlockDataTag
      */
     public static final int SNOW = 24;
     /**
-     * Snow Block WorldType
+     * Snow Block BlockDataTag
      */
     public static final int SNOW_BLOCK = 25;
     /**
-     * Cactus WorldType
+     * Cactus BlockDataTag
      */
     public static final int CACTUS = 26;
     /**
-     * Clay WorldType
+     * Clay BlockDataTag
      */
     public static final int CLAY = 27;
     /**
-     * Gourd (Pumpkin, Watermelon, etc.) WorldType
+     * Gourd (Pumpkin, Watermelon, etc.) BlockDataTag
      */
     public static final int GOURD = 28;
     /**
-     * Dragon Egg WorldType
+     * Dragon Egg BlockDataTag
      */
     public static final int DRAGON_EGG = 29;
     /**
-     * Portal WorldType
+     * Portal BlockDataTag
      */
     public static final int PORTAL = 30;
     /**
-     * Cake WorldType
+     * Cake BlockDataTag
      */
     public static final int CAKE = 31;
     /**
-     * Web WorldType
+     * Web BlockDataTag
      */
     public static final int WEB = 32;
     /**
-     * Piston WorldType
+     * Piston BlockDataTag
      */
     public static final int PISTON = 33;
     /**
-     * Barrier WorldType
+     * Barrier BlockDataTag
      */
     public static final int BARRIER = 34;
 
-    private static final ArrayList<WorldType> worldTypes = new ArrayList<>(34);
+    private static final ArrayList<BlockDataTag> worldTypes = new ArrayList<>(34);
 
-    public WorldType(Block block, int worldType) {
+    public BlockDataTag(Block block, int worldType) {
     }
 
-    private WorldType(Material material) {
+    private BlockDataTag(Material material) {
 
     }
 
@@ -179,7 +179,7 @@ public final class WorldType {
         }
     }
 
-    public static WorldType get(Block block) {
+    public static BlockDataTag get(Block block) {
         return null;
     }
 
