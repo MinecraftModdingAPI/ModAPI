@@ -14,159 +14,159 @@ import net.minecraft.block.material.Material;
  *
  * @author link
  */
-public final class BlockDataTag {
+public final class BlockType {
 
     /**
-     * Custom BlockDataTag (for your own blocks)
+     * Custom BlockType (for your own blocks)
      */
     public static final int CUSTOM = -1;
     /**
-     * Air BlockDataTag
+     * Air BlockType
      */
     public static final int AIR = 0;
     /**
-     * Grass BlockDataTag
+     * Grass BlockType
      */
     public static final int GRASS = 1;
     /**
-     * Dirt BlockDataTag
+     * Dirt BlockType
      */
     public static final int DIRT = 2;
     /**
-     * Wood BlockDataTag
+     * Wood BlockType
      */
     public static final int WOOD = 3;
     /**
-     * Stone BlockDataTag
+     * Stone BlockType
      */
     public static final int STONE = 4;
     /**
-     * Iron BlockDataTag
+     * Iron BlockType
      */
     public static final int IRON = 5;
     /**
-     * Anvil BlockDataTag
+     * Anvil BlockType
      */
     public static final int ANVIL = 6;
     /**
-     * Water BlockDataTag
+     * Water BlockType
      */
     public static final int WATER = 7;
     /**
-     * Lava BlockDataTag
+     * Lava BlockType
      */
     public static final int LAVA = 8;
     /**
-     * Leaves BlockDataTag
+     * Leaves BlockType
      */
     public static final int LEAVES = 9;
     /**
-     * Plant BlockDataTag
+     * Plant BlockType
      */
     public static final int PLANT = 10;
     /**
-     * Vine BlockDataTag
+     * Vine BlockType
      */
     public static final int VINE = 11;
     /**
-     * Sponge BlockDataTag
+     * Sponge BlockType
      */
     public static final int SPONGE = 12;
     /**
-     * Cloth BlockDataTag
+     * Cloth BlockType
      */
     public static final int CLOTH = 13;
     /**
-     * Fire BlockDataTag
+     * Fire BlockType
      */
     public static final int FIRE = 14;
     /**
-     * Sand BlockDataTag
+     * Sand BlockType
      */
     public static final int SAND = 15;
     /**
-     * Redstone BlockDataTag
+     * Redstone BlockType
      */
     public static final int REDSTONE = 16;
     /**
-     * Carpet BlockDataTag
+     * Carpet BlockType
      */
     public static final int CARPET = 17;
     /**
-     * Glass BlockDataTag
+     * Glass BlockType
      */
     public static final int GLASS = 18;
     /**
-     * Rendstone light BlockDataTag
+     * Rendstone light BlockType
      */
     public static final int REDSTONE_LIGHT = 19;
     /**
-     * TNT BlockDataTag
+     * TNT BlockType
      */
     public static final int TNT = 20;
     /**
-     * Coral BlockDataTag
+     * Coral BlockType
      */
     public static final int CORAL = 21;
     /**
-     * Ice BlockDataTag
+     * Ice BlockType
      */
     public static final int ICE = 22;
     /**
-     * Packed Ice BlockDataTag
+     * Packed Ice BlockType
      */
     public static final int PACKED_ICE = 23;
     /**
-     * Snow (with different levels) BlockDataTag
+     * Snow (with different levels) BlockType
      */
     public static final int SNOW = 24;
     /**
-     * Snow Block BlockDataTag
+     * Snow Block BlockType
      */
     public static final int SNOW_BLOCK = 25;
     /**
-     * Cactus BlockDataTag
+     * Cactus BlockType
      */
     public static final int CACTUS = 26;
     /**
-     * Clay BlockDataTag
+     * Clay BlockType
      */
     public static final int CLAY = 27;
     /**
-     * Gourd (Pumpkin, Watermelon, etc.) BlockDataTag
+     * Gourd (Pumpkin, Watermelon, etc.) BlockType
      */
     public static final int GOURD = 28;
     /**
-     * Dragon Egg BlockDataTag
+     * Dragon Egg BlockType
      */
     public static final int DRAGON_EGG = 29;
     /**
-     * Portal BlockDataTag
+     * Portal BlockType
      */
     public static final int PORTAL = 30;
     /**
-     * Cake BlockDataTag
+     * Cake BlockType
      */
     public static final int CAKE = 31;
     /**
-     * Web BlockDataTag
+     * Web BlockType
      */
     public static final int WEB = 32;
     /**
-     * Piston BlockDataTag
+     * Piston BlockType
      */
     public static final int PISTON = 33;
     /**
-     * Barrier BlockDataTag
+     * Barrier BlockType
      */
     public static final int BARRIER = 34;
 
-    private static final ArrayList<BlockDataTag> worldTypes = new ArrayList<>(34);
+    private static final ArrayList<BlockType> blockTypes = new ArrayList<>(34);
 
-    public BlockDataTag(Block block, int worldType) {
+    public BlockType(Block block, int worldType) {
     }
 
-    private BlockDataTag(Material material) {
+    private BlockType(Material material) {
 
     }
 
@@ -179,7 +179,7 @@ public final class BlockDataTag {
         }
     }
 
-    public static BlockDataTag get(Block block) {
+    public static BlockType get(Block block) {
         return null;
     }
 
