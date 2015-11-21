@@ -19,6 +19,43 @@ public final class BlockType {
     private static final HashMap<Block, BlockType> blockTypes = new HashMap<>(64);
 
     public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType GRASS = new BlockType(new MaterialWrapper(Material.grass));
+    public static final BlockType DIRT = new BlockType(new MaterialWrapper(Material.ground));
+    public static final BlockType WOOD = new BlockType(new MaterialWrapper(Material.wood));
+    public static final BlockType STONE = new BlockType(new MaterialWrapper(Material.rock));
+    public static final BlockType IRON = new BlockType(new MaterialWrapper(Material.iron));
+    public static final BlockType ANVIL = new BlockType(new MaterialWrapper(Material.anvil));
+    public static final BlockType WATER = new BlockType(new MaterialWrapper(Material.water));
+    public static final BlockType LAVA = new BlockType(new MaterialWrapper(Material.lava));
+    public static final BlockType LEAVES = new BlockType(new MaterialWrapper(Material.leaves));
+    public static final BlockType PLANT = new BlockType(new MaterialWrapper(Material.plants));
+    public static final BlockType VINE = new BlockType(new MaterialWrapper(Material.vine));
+    public static final BlockType SPONGE = new BlockType(new MaterialWrapper(Material.sponge));
+    public static final BlockType WOOL = new BlockType(new MaterialWrapper(Material.cloth));
+    public static final BlockType FIRE = new BlockType(new MaterialWrapper(Material.fire));
+    public static final BlockType SAND = new BlockType(new MaterialWrapper(Material.sand));
+    public static final BlockType REDSTONE = new BlockType(new MaterialWrapper(Material.circuits));
+    public static final BlockType CARPET = new BlockType(new MaterialWrapper(Material.carpet));
+    public static final BlockType GLASS = new BlockType(new MaterialWrapper(Material.glass));
+    public static final BlockType REDSTONE_LIGHT = new BlockType(new MaterialWrapper(Material.redstoneLight));
+    public static final BlockType EXPLOSIVES = new BlockType(new MaterialWrapper(Material.tnt));
+    public static final BlockType PRISMARINE = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType ICE = new BlockType(new MaterialWrapper(Material.ice));
+    public static final BlockType PACKED_ICE = new BlockType(new MaterialWrapper(Material.packedIce));
+    public static final BlockType SNOW = new BlockType(new MaterialWrapper(Material.snow));
+    public static final BlockType SNOW_BLOCK = new BlockType(new MaterialWrapper(Material.craftedSnow));
+    public static final BlockType CACTUS = new BlockType(new MaterialWrapper(Material.cactus));
+    public static final BlockType CLAY = new BlockType(new MaterialWrapper(Material.clay));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
+    public static final BlockType AIR = new BlockType(new MaterialWrapper(Material.air));
 
     private final MaterialWrapper material;
 

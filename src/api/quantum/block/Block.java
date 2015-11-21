@@ -16,8 +16,9 @@ public abstract class Block {
 
     private final BlockWrapper wrapper;
 
-    protected Block() {
+    protected Block(int opacity, boolean opaque, boolean ) {
         wrapper = null;
+        wrapper.getWrappedBlock().isFullBlock()
     }
     
     BlockWrapper getBlockWrapper() {

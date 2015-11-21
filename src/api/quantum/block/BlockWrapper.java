@@ -28,6 +28,10 @@ class BlockWrapper {
         BlockImpl(net.minecraft.block.Block block) {
             wrappedBlock = block;
         }
+        
+        BlockImpl() {
+            
+        }
     }
 
 }
