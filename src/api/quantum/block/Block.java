@@ -19,4 +19,8 @@ public abstract class Block {
     protected Block() {
         wrapper = null;
     }
+    
+    BlockWrapper getBlockWrapper() {
+        return wrapper;
+    }
 }

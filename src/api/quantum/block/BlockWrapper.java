@@ -5,25 +5,29 @@
  */
 package api.quantum.block;
 
-import net.minecraft.block.material.Material;
-
 /**
  *
  * @author link
  */
 class BlockWrapper {
-    
-    private final net.minecraft.block.Block wrappedBlock;
-    
-    BlockWrapper(){
-        wrappedBlock = new BlockImpl();
+
+    private final BlockImpl wrappedBlock;
+
+    BlockWrapper(net.minecraft.block.Block block) {
+        wrappedBlock = new BlockImpl(block);
     }
 
-    private static class BlockImpl extends net.minecraft.block.Block {
+    net.minecraft.block.Block getWrappedBlock() {
+        return wrappedBlock.wrappedBlock;
+    }
 
-        BlockImpl() {
-            super(null);
+    private static class BlockImpl {
+
+        final net.minecraft.block.Block wrappedBlock;
+
+        BlockImpl(net.minecraft.block.Block block) {
+            wrappedBlock = block;
         }
     }
-    
+
 }
