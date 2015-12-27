@@ -5,6 +5,8 @@
  */
 package api.quantum.init;
 
+import api.quantum.enums.Side;
+import api.quantum.meta.SideOnly;
 import api.quantum.meta.WIP;
 import java.lang.instrument.Instrumentation;
 
@@ -13,6 +15,7 @@ import java.lang.instrument.Instrumentation;
  * @author link
  */
 @WIP(description="Not working yet.", unfinished={"mod loading"})
+@SideOnly(Side.CLIENT)
 class ModLoader {
     
     public static void premain(String args, Instrumentation inst) {
