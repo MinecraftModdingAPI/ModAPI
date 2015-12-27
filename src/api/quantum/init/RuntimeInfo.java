@@ -5,6 +5,9 @@
  */
 package api.quantum.init;
 
+import api.quantum.enums.Side;
+import api.quantum.meta.SideOnly;
+import api.quantum.meta.Universal;
 import api.quantum.meta.WIP;
 import java.util.HashMap;
 import java.util.LinkedList;
@@ -14,6 +17,8 @@ import java.util.LinkedList;
  * @author link
  */
 @WIP(description="A lot of missing runtime information", unfinished={"RuntimeInfo.info"})
+@SideOnly(Side.PROXY)
+@Universal
 public class RuntimeInfo {
 
     private static final RuntimeInfo info = ModLoader.createRuntimeInfo();

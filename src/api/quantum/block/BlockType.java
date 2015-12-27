@@ -5,6 +5,9 @@
  */
 package api.quantum.block;
 
+import api.quantum.enums.Side;
+import api.quantum.meta.SideOnly;
+import api.quantum.meta.Universal;
 import api.quantum.meta.Untested;
 import java.util.HashMap;
 import net.minecraft.block.material.MapColor;
@@ -17,6 +20,8 @@ import net.minecraft.block.material.Material;
  * @author link
  */
 @Untested(true)
+@SideOnly(Side.PROXY)
+@Universal
 public final class BlockType {
 
     private static final HashMap<Block, BlockType> BLOCK_TYPES = new HashMap<>(64);
