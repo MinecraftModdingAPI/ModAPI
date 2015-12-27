@@ -11,7 +11,6 @@ import api.quantum.block.Block.BlockInfo.BlockLighting;
 import api.quantum.block.Block.BlockInfo.ToolInfo;
 import api.quantum.enums.Side;
 import api.quantum.meta.SideOnly;
-import api.quantum.meta.Universal;
 import api.quantum.meta.WIP;
 
 /**
@@ -19,8 +18,7 @@ import api.quantum.meta.WIP;
  * @author link
  */
 @WIP
-@SideOnly(Side.PROXY)
-@Universal
+@SideOnly(Side.UNIVERSAL)
 class BlockWrapper {
 
     private final BlockImpl wrappedBlock;

@@ -15,5 +15,5 @@ public enum Side {
     /**
      * Represents a proxy connecting client and server
      */
-    PROXY,
+    UNIVERSAL,
 }

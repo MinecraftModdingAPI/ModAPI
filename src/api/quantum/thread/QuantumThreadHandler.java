@@ -2,7 +2,6 @@ package api.quantum.thread;
 
 import api.quantum.enums.Side;
 import api.quantum.meta.ThreadSafe;
-import api.quantum.meta.Universal;
 
 import java.util.concurrent.Executors;
 import java.util.concurrent.ScheduledExecutorService;
@@ -12,8 +11,7 @@ import java.util.concurrent.TimeUnit;
  * A handler that manages thread tasks.
  * @author PizzaCrust
  */
-@ThreadSafe(Side.PROXY)
-@Universal
+@ThreadSafe(Side.UNIVERSAL)
 public class QuantumThreadHandler {
     /**
      * The executor service for QuantumThreadHandler

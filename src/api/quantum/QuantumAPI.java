@@ -7,14 +7,12 @@ package api.quantum;
 
 import api.quantum.enums.Side;
 import api.quantum.meta.ThreadSafe;
-import api.quantum.meta.Universal;
 
 /**
  *
  * @author link
  */
-@Universal
-@ThreadSafe(Side.PROXY)
+@ThreadSafe(Side.UNIVERSAL)
 public class QuantumAPI {
     /* 
      * This exists for a reason. that reason, I currently do not know. 

@@ -7,7 +7,6 @@ package api.quantum.block;
 
 import api.quantum.enums.Side;
 import api.quantum.meta.SideOnly;
-import api.quantum.meta.Universal;
 import api.quantum.meta.WIP;
 
 /**
@@ -15,8 +14,7 @@ import api.quantum.meta.WIP;
  * @author link
  */
 @WIP
-@SideOnly(Side.PROXY)
-@Universal
+@SideOnly(Side.UNIVERSAL)
 public abstract class Block {
 
     private final BlockWrapper wrapper;
