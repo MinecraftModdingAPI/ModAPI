@@ -13,7 +13,7 @@ public enum Side {
      */
     SERVER,
     /**
-     * Represents a proxy connecting client and server
+     * Represents a object that is both compatible between clientside and serverside
      */
     UNIVERSAL,
 }
