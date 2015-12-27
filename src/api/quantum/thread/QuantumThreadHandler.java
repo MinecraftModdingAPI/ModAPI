@@ -11,7 +11,7 @@ import java.util.concurrent.TimeUnit;
  * A handler that manages thread tasks.
  * @author PizzaCrust
  */
-@ThreadSafe(Side.UNIVERSAL)
+@ThreadSafe(Side.SERVER)
 public class QuantumThreadHandler {
     /**
      * The executor service for QuantumThreadHandler

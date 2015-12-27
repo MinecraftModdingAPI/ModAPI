@@ -19,7 +19,6 @@ import net.minecraft.block.material.Material;
  * @author link
  */
 @Untested(true)
-@SideOnly(Side.UNIVERSAL)
 public final class BlockType {
 
     private static final HashMap<Block, BlockType> BLOCK_TYPES = new HashMap<>(64);

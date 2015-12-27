@@ -16,7 +16,6 @@ import java.util.LinkedList;
  * @author link
  */
 @WIP(description="A lot of missing runtime information", unfinished={"RuntimeInfo.info"})
-@SideOnly(Side.UNIVERSAL)
 public class RuntimeInfo {
 
     private static final RuntimeInfo info = ModLoader.createRuntimeInfo();

@@ -18,7 +18,6 @@ import api.quantum.meta.WIP;
  * @author link
  */
 @WIP
-@SideOnly(Side.UNIVERSAL)
 class BlockWrapper {
 
     private final BlockImpl wrappedBlock;

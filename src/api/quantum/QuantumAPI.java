@@ -12,7 +12,6 @@ import api.quantum.meta.ThreadSafe;
  *
  * @author link
  */
-@ThreadSafe(Side.UNIVERSAL)
 public class QuantumAPI {
     /* 
      * This exists for a reason. that reason, I currently do not know. 
