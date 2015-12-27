@@ -12,8 +12,4 @@ public enum Side {
      * Represents serverside
      */
     SERVER,
-    /**
-     * Represents a object that is both compatible between clientside and serverside
-     */
-    UNIVERSAL,
 }
