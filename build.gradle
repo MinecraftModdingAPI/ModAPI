@@ -2,7 +2,7 @@ group 'ltp.lib'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
-apply plugin: 'net.pizzacrust.deobfmc.plugin'
+apply plugin: 'deobfmc'
 
 sourceSets {
     main {
