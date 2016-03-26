@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63e2c812-3a38-4874-9a9d-3744ff5262e9" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__org_javassist_javassist_3_20_0_GA.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/QuantumAPI_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/QuantumAPI_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/QuantumAPI_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/QuantumAPI_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Quantum API.iml" afterPath="$PROJECT_DIR$/Quantum API.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
     </list>
     <ignored path="Quantum API.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -101,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlockWrapper.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BlockWrapper.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/ltp/lib/quantum/block/BlockWrapper.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-374">
@@ -114,7 +116,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="574">
@@ -851,7 +853,14 @@
       <option name="project" value="LOCAL" />
       <updated>1458970507425</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add javassist dependency">
+      <created>1458970644185</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1458970644185</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -899,7 +908,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated workspace.xml" />
     <MESSAGE value="add minecraft dependency" />
-    <option name="LAST_COMMIT_MESSAGE" value="add minecraft dependency" />
+    <MESSAGE value="add javassist dependency" />
+    <option name="LAST_COMMIT_MESSAGE" value="add javassist dependency" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1172,6 +1182,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="574">
+          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/ltp/lib/quantum/block/BlockWrapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-374">
@@ -1180,14 +1198,6 @@
             <element signature="e#1855#1856#0" expanded="true" />
             <element signature="e#1898#1899#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="574">
-          <caret line="34" column="47" selection-start-line="34" selection-start-column="47" selection-end-line="34" selection-end-column="47" />
-          <folding />
         </state>
       </provider>
     </entry>
