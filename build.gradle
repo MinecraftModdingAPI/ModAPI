@@ -1,1 +1,21 @@
+group 'ltp.lib'
+version '1.0-SNAPSHOT'
+
 apply plugin: 'java'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'resources'
+        }
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {}
