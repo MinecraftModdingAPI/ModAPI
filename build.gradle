@@ -31,4 +31,5 @@ repositories {
 }
 
 dependencies {
+    compile files('libs/DeobfMC-1.9.jar')
 }

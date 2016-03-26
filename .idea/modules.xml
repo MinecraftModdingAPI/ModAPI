@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Quantum API.iml" filepath="$PROJECT_DIR$/Quantum API.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuantumAPI_main.iml" filepath="$PROJECT_DIR$/.idea/modules/QuantumAPI_main.iml" group="QuantumAPI" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/QuantumAPI_test.iml" filepath="$PROJECT_DIR$/.idea/modules/QuantumAPI_test.iml" group="QuantumAPI" />
     </modules>
   </component>
 </project>
