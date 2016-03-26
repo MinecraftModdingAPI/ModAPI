@@ -1,1 +1,36 @@
+group 'ltp.lib'
+version '1.0-SNAPSHOT'
+
 apply plugin: 'java'
+apply plugin: 'deobfmc'
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'resources'
+        }
+    }
+}
+
+buildscript {
+    repositories {
+        mavenLocal()
+        mavenCentral()
+    }
+
+    dependencies {
+        classpath 'net.pizzacrust:DeobfMC:1.9-SNAPSHOT'
+    }
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile files('libs/DeobfMC-1.9.jar')
+    compile 'org.javassist:javassist:3.20.0-GA'
+}
