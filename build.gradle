@@ -2,6 +2,7 @@ group 'ltp.lib'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'net.pizzacrust.deobfmc.plugin'
 
 sourceSets {
     main {
@@ -14,8 +15,19 @@ sourceSets {
     }
 }
 
+buildscript {
+    repositories {
+        mavenLocal()
+    }
+
+    dependencies {
+        classpath 'net.pizzacrust:DeobfMC:1.9-SNAPSHOT'
+    }
+}
+
 repositories {
     mavenCentral()
 }
 
-dependencies {}
+dependencies {
+}

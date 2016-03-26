@@ -1,0 +1,3 @@
+[submodule "DeobfMC"]
+	path = DeobfMC
+	url = https://github.com/PizzaCrust/DeobfMC
