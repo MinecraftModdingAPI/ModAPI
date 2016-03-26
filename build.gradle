@@ -32,4 +32,5 @@ repositories {
 
 dependencies {
     compile files('libs/DeobfMC-1.9.jar')
+    compile 'org.javassist:javassist:3.20.0-GA'
 }
