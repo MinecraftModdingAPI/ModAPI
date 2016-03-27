@@ -10,6 +10,17 @@ version '1.0-SNAPSHOT'
 apply plugin: 'java'
 apply plugin: 'deobfuscate4j'
 
+sourceSets {
+    main {
+        java {
+            srcDir 'src'
+        }
+        resources {
+            srcDir 'resources'
+        }
+    }
+}
+
 buildscript {
     repositories {
         mavenCentral()
