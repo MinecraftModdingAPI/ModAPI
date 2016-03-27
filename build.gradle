@@ -1,3 +1,9 @@
+/**
+ * Quantum API Gradle
+ *
+ * Setup contribution environment:
+ * 1. Run applySpecialSource task
+ */
 group 'ltp.lib'
 version '1.0-SNAPSHOT'
 
@@ -16,6 +22,12 @@ buildscript {
     }
 }
 
+deobfmc {
+    downloadSrgLocation = 'https://raw.githubusercontent.com/ProjectTestificate/MinecraftMappings/master/1.8/obf2mcp.srg'
+    downloadInJar = 'https://launcher.mojang.com/mc/game/1.8/client/d722504db9de2b47f46cc592b8528446272ae648/client.jar'
+    outJarName = 'Minecraft.jar'
+}
+
 repositories {
     mavenCentral()
     maven {
@@ -29,4 +41,7 @@ repositories {
 dependencies {
     compile 'org.spongepowered:mixin:0.5.3-SNAPSHOT'
     compile 'org.javassist:javassist:3.20.0-GA'
+
+    // minecraft
+    compile files('libs/Minecraft.jar')
 }
