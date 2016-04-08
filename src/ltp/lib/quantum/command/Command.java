@@ -1,11 +1,14 @@
 package ltp.lib.quantum.command;
 
+import ltp.lib.quantum.meta.WIP;
+
 import java.util.List;
 
 /**
  * @author PizzaCrust
  * TODO: Add all methods in vanilla class.
  */
+@WIP
 public interface Command {
     /**
      * The name of the command. Already includes a slash at the beginning of the command.

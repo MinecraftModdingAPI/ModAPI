@@ -1,5 +1,6 @@
 package ltp.lib.quantum.command;
 
+import ltp.lib.quantum.meta.WIP;
 import net.minecraft.command.CommandHandler;
 import net.minecraft.command.ICommand;
 import net.minecraft.command.ICommandManager;
@@ -13,6 +14,7 @@ import java.util.List;
 /**
  * @author PizzaCrust
  */
+@WIP
 public interface CommandManager {
     /**
      * Executes a command via the command sender.

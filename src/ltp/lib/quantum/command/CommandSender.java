@@ -1,5 +1,6 @@
 package ltp.lib.quantum.command;
 
+import ltp.lib.quantum.meta.WIP;
 import net.minecraft.command.ICommandSender;
 import net.minecraft.util.ChatComponentText;
 
@@ -7,6 +8,7 @@ import net.minecraft.util.ChatComponentText;
  * @author PizzaCrust
  * TODO: Make this more comprehensive.
  */
+@WIP
 public interface CommandSender {
     /**
      * Retrieves the username of the object.
