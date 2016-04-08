@@ -22,6 +22,8 @@
     <bytecodeTargetLevel target="1.8">
       <module name="QuantumAPI_main" target="1.8" />
       <module name="QuantumAPI_test" target="1.8" />
+      <module name="QuantumAPIDev_main" target="1.8" />
+      <module name="QuantumAPIDev_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="EclipseCompilerSettings">

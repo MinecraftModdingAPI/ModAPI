@@ -27,6 +27,9 @@
  */
 package ltp.lib.quantum;
 
+import ltp.lib.quantum.command.CommandManager;
+import net.minecraft.server.MinecraftServer;
+
 /**
  * @author link
  */
@@ -51,5 +54,12 @@ public final class Quantum {
 
 	public static String getMinecraftVersion() {
 		return MC_VERSION;
+	}
+
+	public static CommandManager getCommandManager() {
+		/**
+		 * TODO: Use mixins instead of MinecraftServer.getServer(), this point will be removed in future versions.
+		 */
+		return new CommandManager.WrappedManager(MinecraftServer.getServer().getCommandManager());
 	}
 }
